@@ -19,3 +19,13 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+@media screen and (max-width:576px) {
+    .column{
+        flex-direction: column;
+        height: auto;
+    }
+    .square-column{
+        grid-template-columns: 1fr;
+    }
+}
