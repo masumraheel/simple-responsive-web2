@@ -12,5 +12,10 @@ img{
     flex: 1;
 }
 .verticale-column{
-    height: 50%;
+    height: calc((100% - 5px)/2);
+}
+.square-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
 }
